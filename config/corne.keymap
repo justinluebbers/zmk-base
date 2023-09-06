@@ -69,10 +69,10 @@ DE_LALT  &trans  &trans  &trans     &trans    &trans    &trans  &trans  &trans  
 
         Navigation {
             bindings = <
-&trans    &trans  DE_7  DE_8     DE_9    &trans    &trans  &trans    &kp UP    &trans     &trans  &trans
-&trans    DE_0  DE_4  DE_5     DE_6    &trans    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&kp LALT  &trans  DE_1  DE_2     DE_3    &trans    &trans  &trans    &trans    &trans     &trans  &trans
-                          &kp LCTRL  &kp LGUI  &trans    &trans  &trans    &trans
+&trans    &trans  DE_7  DE_8     DE_9    &trans    &trans  &trans    DE_UP    &trans     &trans  &trans
+&trans    DE_0  DE_4  DE_5     DE_6    &trans    &trans  DE_LEFT  DE_DOWN  DE_RIGHT  &trans  &trans
+DE_LALT  &trans  DE_1  DE_2     DE_3    &trans    &trans  &trans    &trans    &trans     &trans  &trans
+                          DE_LCTRL  DE_LGUI  &trans    &trans  &trans    &trans
             >;
         };
 
