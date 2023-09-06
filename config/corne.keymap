@@ -45,10 +45,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp CARET  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp LS(N3)  &kp DOLLAR      &kp PERCENT    &kp AMPERSAND  &kp SLASH   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL         &trans
-&kp PIPE   &kp AT           &kp TILDE          &kp LA(E)   &kp UNDERSCORE  &kp MINUS      &kp SEMICOLON  &kp COMMA   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp QUESTION      &trans
-&kp LALT   &kp LESS_THAN    &kp GREATER_THAN   &kp HASH    &kp ASTERISK    &kp PLUS       &kp COLON      &kp PERIOD  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SINGLE_QUOTE  &trans
-                                               &kp LCTRL   &kp LGUI        &trans         &none          &trans      &trans
+DE_CARET  DE_EXCL  DE_DQUO   DE_SECT   DE_DLR   DE_PERC  DE_AMPR  DE_SLSH  DE_LPRN  DE_RPRN  DE_EQL   &trans
+DE_PIPE   DE_AT    DE_TILDE  DE_EURO   DE_UNDS  DE_MINS  DE_SCLN  DE_COMM  DE_LCBR  DE_RCBR  DE_QUES  DE_DEG
+DE_LALT   DE_LABK  DE_RABK   DE_HASH   DE_ASTR  DE_PLUS  DE_COLN  DE_DOT   DE_LBRC  DE_RBRC  DE_QUOT  &trans
+                             DE_LCTRL  DE_LGUI  &trans   &trans   &trans   &trans
             >;
         };
 
