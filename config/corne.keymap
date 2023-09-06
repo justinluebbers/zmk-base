@@ -30,9 +30,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESC       &kp Q  &kp W  &kp E             &kp R             &kp T             &kp Z        &kp U        &kp I    &kp O    &kp P          DE_SS
-&lt 4 TAB     &kp A  &kp S  &kp D             &kp F             &kp G             &kp H        &kp J        &kp K    &kp L    &kp BACKSPACE  &kp ENTER
-&kp LEFT_ALT  &kp Y  &kp X  &kp C             &kp V             &kp B             &kp N        &kp M        DE_UDIA  DE_ADIA  DE_ODIA        &trans
+&kp ESC       DE_Q  DE_W  DE_E             DE_R             DE_T             DE_Z        DE_U        DE_I    DE_O    DE_P          DE_SS
+&lt 4 TAB     DE_A  DE_S  DE_D             DE_F             DE_G             DE_H        DE_J        DE_K    DE_L    &kp BACKSPACE  &kp ENTER
+&kp LEFT_ALT  DE_Y  DE_X  DE_C             DE_V             DE_B             DE_N        DE_M        DE_UDIA  DE_ADIA  DE_ODIA        &trans
                             &kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_SHIFT    &lt 1 SPACE  &lt 3 ENTER  &mo 2
             >;
         };
@@ -69,9 +69,9 @@
 
         Navigation {
             bindings = <
-&trans    &trans  &kp N7  &kp N8     &kp N9    &trans    &trans  &trans    &kp UP    &trans     &trans  &trans
-&trans    &kp N0  &kp N4  &kp N5     &kp N6    &trans    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&kp LALT  &trans  &kp N1  &kp N2     &kp N3    &trans    &trans  &trans    &trans    &trans     &trans  &trans
+&trans    &trans  DE_7  DE_8     DE_9    &trans    &trans  &trans    &kp UP    &trans     &trans  &trans
+&trans    DE_0  DE_4  DE_5     DE_6    &trans    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&kp LALT  &trans  DE_1  DE_2     DE_3    &trans    &trans  &trans    &trans    &trans     &trans  &trans
                           &kp LCTRL  &kp LGUI  &trans    &trans  &trans    &trans
             >;
         };
