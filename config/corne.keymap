@@ -30,10 +30,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESC    DE_Q  DE_W  DE_E      DE_R     DE_T      DE_Z            DE_U            DE_I     DE_O     DE_P     DE_SS
-&lt 4 TAB  DE_A  DE_S  DE_D      DE_F     DE_G      DE_H            DE_J            DE_K     DE_L    DE_BSPC  DE_RET
-DE_LALT    DE_Y  DE_X  DE_C      DE_V     DE_B      DE_N            DE_M            DE_UDIA  DE_ADIA  DE_ODIA  DE_DEL
-                       DE_LCTRL  DE_LGUI  DE_LSHFT  &lt 1 DE_SPACE  &lt 3 DE_SPACE  &mo 2
+&kp ESC       DE_Q  DE_W  DE_E             DE_R             DE_T             DE_Z        DE_U        DE_I    DE_O    DE_P          DE_SS
+&lt 4 TAB     DE_A  DE_S  DE_D             DE_F             DE_G             DE_H        DE_J        DE_K    DE_L    &kp BACKSPACE  &kp ENTER
+&kp LEFT_ALT  DE_Y  DE_X  DE_C             DE_V             DE_B             DE_N        DE_M        DE_UDIA  DE_ADIA  DE_ODIA        &trans
+                            &kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_SHIFT    &lt 1 SPACE  &lt 3 ENTER  &mo 2
             >;
         };
 
