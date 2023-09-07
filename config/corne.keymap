@@ -32,8 +32,8 @@
             bindings = <
 &kp ESC       DE_Q  DE_W  DE_E             DE_R             DE_T             DE_Z        DE_U        DE_I    DE_O    DE_P          DE_SS
 &lt 4 TAB     DE_A  DE_S  DE_D             DE_F             DE_G             DE_H        DE_J        DE_K    DE_L    &kp BACKSPACE  &kp ENTER
-&kp LEFT_ALT  DE_Y  DE_X  DE_C             DE_V             DE_B             DE_N        DE_M        DE_UDIA  DE_ADIA  DE_ODIA        DE_DEL
-                            &kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_SHIFT    &lt 1 SPACE  &lt 3 SPACE  &mo 2
+&kp LEFT_SHIFT  DE_Y  DE_X  DE_C             DE_V             DE_B             DE_N        DE_M        DE_UDIA  DE_ADIA  DE_ODIA        DE_DEL
+                            &kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_ALT    &lt 1 SPACE  &lt 3 SPACE  &mo 2
             >;
         };
 
@@ -47,8 +47,8 @@
             bindings = <
 DE_CARET  DE_EXCL  DE_DQUO   DE_SECT   DE_DLR   DE_PERC  DE_AMPR  DE_SLSH  DE_LPRN  DE_RPRN  DE_EQL   &trans
 DE_PIPE   DE_AT    DE_TILD  DE_EURO   DE_UNDS  DE_MINS  DE_SCLN  DE_COMM  DE_LCBR  DE_RCBR  DE_QUES  DE_DEG
-DE_LALT   DE_LABK  DE_RABK   DE_HASH   DE_ASTR  DE_PLUS  DE_COLN  DE_DOT   DE_LBRC  DE_RBRC  DE_QUOT  &trans
-                             DE_LCTRL  DE_LGUI  &trans   &trans   &trans   &trans
+DE_LSHFT   DE_LABK  DE_RABK   DE_HASH   DE_ASTR  DE_PLUS  DE_COLN  DE_DOT   DE_LBRC  DE_RBRC  DE_QUOT  &trans
+                             DE_LCTRL  DE_LGUI  DE_LALT   &trans   &trans   &trans
             >;
         };
 
@@ -62,17 +62,17 @@ DE_LALT   DE_LABK  DE_RABK   DE_HASH   DE_ASTR  DE_PLUS  DE_COLN  DE_DOT   DE_LB
             bindings = <
 DE_F1    DE_F2  DE_F3  DE_F4     DE_F5    DE_F6    DE_F7  DE_F8  DE_F9  DE_F10  DE_F11  DE_F12
 &trans    &trans  &trans  &trans     &trans    &trans    &trans  &trans  &trans  &trans   &trans   &bootloader
-DE_LALT  &trans  &trans  &trans     &trans    &trans    &trans  &trans  &trans  &trans   &trans   &trans
-                          DE_LCTRL  DE_LGUI  &trans    &trans  &trans  &trans
+DE_LSHFT  &trans  &trans  &trans     &trans    &trans    &trans  &trans  &trans  &trans   &trans   &trans
+                          DE_LCTRL  DE_LGUI  DE_LALT    &trans  &trans  &trans
             >;
         };
 
         Navigation {
             bindings = <
-&trans    &trans  DE_7  DE_8     DE_9    &trans    &trans  &trans    DE_UP    &trans     &trans  &trans
+&trans    &trans  DE_7  DE_8     DE_9    &trans    &trans  NAV_LEFT    DE_UP    NAV_RIGHT     &trans  &trans
 &trans    DE_0  DE_4  DE_5     DE_6    &trans    &trans  DE_LEFT  DE_DOWN  DE_RIGHT  &trans  &trans
-DE_LALT  &trans  DE_1  DE_2     DE_3    &trans    &trans  &trans    &trans    &trans     &trans  &trans
-                          DE_LCTRL  DE_LGUI  &trans    &trans  &trans    &trans
+DE_LSHFT  &trans  DE_1  DE_2     DE_3    &trans    &trans  &trans    &trans    &trans     &trans  &trans
+                          DE_LCTRL  DE_LGUI  DE_LALT    &trans  &trans    &trans
             >;
         };
 
