@@ -28,7 +28,7 @@
             // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
             // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
-
+        label = "";
             bindings = <
 &kp ESC       DE_Q  DE_W  DE_E             DE_R             DE_T             DE_Z        DE_U        DE_I    DE_O    DE_P          DE_SS
 &lt 4 TAB     DE_A  DE_S  DE_D             DE_F             DE_G             DE_H        DE_J        DE_K    DE_L    &kp BACKSPACE  &kp ENTER
@@ -43,7 +43,7 @@
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
             // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
-
+        label = "SYMB";
             bindings = <
 DE_CARET  DE_EXCL  DE_DQUO   DE_SECT   DE_DLR   DE_PERC  DE_AMPR  DE_SLSH  DE_LPRN  DE_RPRN  DE_EQL   &trans
 DE_PIPE   DE_AT    DE_HASH  DE_EURO   DE_UNDS  DE_MINS  DE_ADIA  DE_ODIA  DE_LCBR  DE_RCBR  DE_QUES  DE_DEG
@@ -59,6 +59,7 @@ DE_LSHFT   DE_LABK  DE_RABK   &trans   DE_ASTR  DE_PLUS  DE_TILD  DE_UDIA   DE_L
             // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
+        label = "FUNC";
             bindings = <
 DE_F1    DE_F2  DE_F3  DE_F4     DE_F5    DE_F6    DE_F7  DE_F8  DE_F9  DE_F10  DE_F11  DE_F12
 &trans    &trans  &trans  &trans     &trans    &trans    &trans  &trans  &trans  &trans   &trans   &bootloader
@@ -68,6 +69,7 @@ DE_LSHFT  &trans  &trans  &trans     &trans    &trans    &trans  &trans  &trans 
         };
 
         Navigation {
+        label = "NAVI";
             bindings = <
 &trans    &trans  DE_7  DE_8     DE_9    &trans    &trans  NAV_LEFT    DE_UP    NAV_RIGHT     &trans  &trans
 &trans    DE_0  DE_4  DE_5     DE_6    &trans    &trans  DE_LEFT  DE_DOWN  DE_RIGHT  &trans  &trans
@@ -77,7 +79,7 @@ DE_LSHFT  &trans  DE_1  DE_2     DE_3    &trans    &trans  &trans    &trans    &
         };
 
         mouse_layer {
-         // label = "MOUSE";
+        label = "MOUSE";
          bindings = <
 &trans      CLICK_RIGHT  MOVE_UP    CLICK_LEFT  SCROLL_UP    &bootloader     DE_BRI_DN  DE_BRI_UP  DE_VOL_DN  DE_VOL_UP  DE_MUTE  &trans
 &trans      MOVE_LEFT    MOVE_DOWN  MOVE_RIGHT  SCROLL_DOWN  &trans     &trans  &trans  &trans  &trans  &trans  &trans
