@@ -31,9 +31,9 @@
 
             bindings = <
 &kp ESC       DE_Q  DE_W  DE_E             DE_R             DE_T             DE_Z        DE_U        DE_I    DE_O    DE_P          DE_SS
-&lt 4 TAB     DE_A  DE_S  DE_D             DE_F             DE_G             DE_H        DE_J        DE_K    DE_L    &kp BACKSPACE  &kp ENTER
-&kp LEFT_SHIFT  DE_Y  DE_X  DE_C             DE_V             DE_B             DE_N        DE_M        DE_UDIA  DE_ADIA  DE_ODIA        DE_DEL
-                            &kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_ALT    &lt 1 SPACE  &lt 3 SPACE  &mo 2
+&lt 4 TAB     DE_A  DE_S  DE_D             DE_F             DE_G             DE_H        DE_J        DE_K    DE_L    &kp ENTER  &kp BACKSPACE
+&kp LEFT_SHIFT  DE_Y  DE_X  DE_C             DE_V             DE_B             DE_N        DE_M        DE_COMM  DE_DOT   DE_DEL  &trans
+                            &kp LEFT_CONTROL  &kp LEFT_COMMAND  &mt LEFT_ALT SPACE    &lt 1 SPACE  &lt 3 SPACE  &mo 2
             >;
         };
 
@@ -46,8 +46,8 @@
 
             bindings = <
 DE_CARET  DE_EXCL  DE_DQUO   DE_SECT   DE_DLR   DE_PERC  DE_AMPR  DE_SLSH  DE_LPRN  DE_RPRN  DE_EQL   &trans
-DE_PIPE   DE_AT    DE_TILD  DE_EURO   DE_UNDS  DE_MINS  DE_SCLN  DE_COMM  DE_LCBR  DE_RCBR  DE_QUES  DE_DEG
-DE_LSHFT   DE_LABK  DE_RABK   DE_HASH   DE_ASTR  DE_PLUS  DE_COLN  DE_DOT   DE_LBRC  DE_RBRC  DE_QUOT  &trans
+DE_PIPE   DE_AT    DE_HASH  DE_EURO   DE_UNDS  DE_MINS  DE_ADIA  DE_ODIA  DE_LCBR  DE_RCBR  DE_QUES  DE_DEG
+DE_LSHFT   DE_LABK  DE_RABK   &trans   DE_ASTR  DE_PLUS  DE_TILD  DE_UDIA   DE_LBRC  DE_RBRC  DE_QUOT  &trans
                              DE_LCTRL  DE_LGUI  DE_LALT   &trans   &trans   &trans
             >;
         };
