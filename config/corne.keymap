@@ -31,9 +31,9 @@
         label = "";
             bindings = <
 &kp ESC       DE_Q  DE_W  DE_E             DE_R             DE_T             DE_Z        DE_U        DE_I    DE_O    DE_P          DE_SS
-&lt 4 TAB     DE_A  DE_S  DE_D             DE_F             DE_G             DE_H        DE_J        DE_K    DE_L    &kp BACKSPACE  &kp ENTER
+&lt MOUSE TAB     DE_A  DE_S  DE_D             DE_F             DE_G             DE_H        DE_J        DE_K    DE_L    &kp BACKSPACE  &kp ENTER
 &kp LEFT_SHIFT  DE_Y  DE_X  DE_C             DE_V             DE_B             DE_N        DE_M        DE_COMM  DE_DOT   DE_DEL  &trans
-                            &kp LEFT_CONTROL  &kp LEFT_COMMAND  &mt LEFT_ALT SPACE    &lt 1 SPACE  &lt 3 SPACE  &lt 2 K_CONTEXT_MENU
+                            &kp LEFT_CONTROL  &kp LEFT_COMMAND  &mt LEFT_ALT SPACE    &lt SYMBOL SPACE  &lt NAVIGATION SPACE  &lt FUNCTION K_CONTEXT_MENU
             >;
         };
 
