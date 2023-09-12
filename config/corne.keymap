@@ -71,7 +71,7 @@ DE_F1    DE_F2  DE_F3  DE_F4     DE_F5    DE_F6    DE_F7  DE_F8  DE_F9  DE_F10  
         Navigation {
         label = "NAVI";
             bindings = <
-&trans    &trans  DE_7  DE_8     DE_9    &trans    &trans  LA(DE_LEFT)    DE_UP    LA(DE_RIGHT)     &trans  &trans
+&trans    &trans  DE_7  DE_8     DE_9    &trans    &trans  DE_LEFT_JUMP    DE_UP    DE_RIGHT_JUMP     &trans  &trans
 &trans    DE_0  DE_4  DE_5     DE_6    &trans    &trans  DE_LEFT  DE_DOWN  DE_RIGHT  &trans  &trans
 &trans  &trans  DE_1  DE_2     DE_3    &trans    &trans  &trans    &trans    &trans     &trans  &trans
                           &trans  &trans  &trans    &trans  &trans    &trans
