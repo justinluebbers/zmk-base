@@ -54,6 +54,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DE_DOWN &kp DOWN
 #define DE_RIGHT &kp RIGHT
 
+#define DE_LEFT_JUMP &kp LA(LEFT)
+#define DE_RIGHT_JUMP &kp LA(RIGHT)
+
 // SPACE CAPS TAB ENTER BACKSPACE ESCAPE DELETE
 #define DE_SPACE &kp SPACE // Space
 #define DE_CAPS &kp CAPS   // Caps Lock

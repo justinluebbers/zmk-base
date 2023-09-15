@@ -33,19 +33,26 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 // mouse config, 1 = enable, 0 = disable, default = 1
-#define MC_TECHNOLOGY_MOUSE_ENABLE 0
+#define MC_TECHNOLOGY_MOUSE_ENABLE 1
 
 // layers
 #define DEFAULT 0
-#define NUMBER 1
-#define SYMBOL 2
-#define FUNCTION 3
-#define MEDIA 4
-#define MOUSE 5
+#define SYMBOL 1
+#define FUNCTION 2
+#define NAVIGATION 3
+#define MOUSE 4
+
+
+// #define DEFAULT 0
+// #define NUMBER 1
+// #define SYMBOL 2
+// #define FUNCTION 3
+// #define MEDIA 4
+// #define MOUSE 5
 // esta capa la uso por la compatibilidad entre mac, windows y linux
 // a veces los caracteres no son los mismos
-#define LX_ 6
-#define LOCK 7
+// #define LX_ 6
+// #define LOCK 7
 
 #define NAV_LEFT &mt HOME LEFT  // tap: left  | long-tap: beginning of line
 #define NAV_RIGHT &mt END RIGHT // tap: right | long-tap: end       of line
@@ -57,14 +64,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define NAV_DEL &mt LC(DEL) DEL // tap: del   | long-tap: delete word forward
 
 // combinadas para optimizar espacio
-#define MEDIA_ESC &lt MEDIA ESC
-#define MOUSE_TAB &lt MOUSE TAB
-#define NUMBER_SPACE &lt NUMBER SPACE
-#define SYMBOL_RGUI &mo SYMBOL     // &lt SYMBOL RGUI
-#define FUNCTION_RALT &mo FUNCTION // &lt FUNCTION RALT
+// #define MEDIA_ESC &lt MEDIA ESC
+// #define MOUSE_TAB &lt MOUSE TAB
+// #define NUMBER_SPACE &lt NUMBER SPACE
+// #define SYMBOL_RGUI &mo SYMBOL     // &lt SYMBOL RGUI
+// #define FUNCTION_RALT &mo FUNCTION // &lt FUNCTION RALT
 
 // default_layer
-#define LSHFT_COMMA &mt LSHFT COMMA
+// #define LSHFT_COMMA &mt LSHFT COMMA
 
 // function_layer
 #define SPELL &kp LC(LG(D))
