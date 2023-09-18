@@ -41,7 +41,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define FUNCTION 2
 #define NAVIGATION 3
 #define MOUSE 4
-
+#define MEDIA 5
 
 // #define DEFAULT 0
 // #define NUMBER 1
