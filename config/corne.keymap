@@ -30,10 +30,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
         label = "";
             bindings = <
-&lt MEDIA ESC   DE_Q  DE_W  DE_E              DE_R                    DE_T                DE_Z              DE_U                  DE_I                         DE_O    DE_P           DE_SS
-&lt MOUSE TAB   DE_A  DE_S  DE_D              DE_F                    DE_G                DE_H              DE_J                  DE_K                         DE_L    &kp BACKSPACE  &kp ENTER
-&kp LEFT_SHIFT  DE_Y  DE_X  DE_C              DE_V                    DE_B                DE_N              DE_M                  DE_COMM                      DE_DOT  DE_DEL         &trans
-                            &kp LEFT_CONTROL  &mt LEFT_COMMAND SPACE  &mt LEFT_ALT SPACE  &lt SYMBOL SPACE  &lt NAVIGATION SPACE  &lt FUNCTION K_CONTEXT_MENU
+&lt MEDIA ESC     DE_Q  DE_W  DE_E          DE_R                    DE_T                  DE_Z              DE_U                  DE_I                         DE_O    DE_P           DE_SS
+&lt MOUSE TAB     DE_A  DE_S  DE_D          DE_F                    DE_G                  DE_H              DE_J                  DE_K                         DE_L    &kp BACKSPACE  &kp ENTER
+&kp LEFT_CONTROL  DE_Y  DE_X  DE_C          DE_V                    DE_B                  DE_N              DE_M                  DE_COMM                      DE_DOT  DE_DEL         &trans
+                              &kp LEFT_ALT  &mt LEFT_COMMAND SPACE  &mt LEFT_SHIFT SPACE  &lt SYMBOL SPACE  &lt NAVIGATION SPACE  &lt FUNCTION K_CONTEXT_MENU
             >;
         };
 
@@ -61,20 +61,20 @@
 
         label = "FUNC";
             bindings = <
-DE_F1    DE_F2  DE_F3  DE_F4     DE_F5    DE_F6    DE_F7  DE_F8  DE_F9  DE_F10  DE_F11  DE_F12
-&trans    &trans  &trans  &trans     &trans    &trans    &trans  &trans  &trans  &trans   &trans   &bootloader
-&trans  &trans  &trans  &trans     &trans    &trans    &trans  &trans  &trans  &trans   &trans   &trans
-                          &trans  &trans  &trans    &trans  &trans  &trans
+DE_F1   DE_F2   DE_F3   DE_F4   DE_F5   DE_F6   DE_F7   DE_F8   DE_F9   DE_F10   DE_F11   DE_F12
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &bootloader
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans
+                        &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         Navigation {
         label = "NAVI";
             bindings = <
-&trans    &trans  DE_7  DE_8     DE_9    &trans    &trans  DE_LEFT_JUMP    DE_UP    DE_RIGHT_JUMP     &trans  &trans
-&trans    DE_0  DE_4  DE_5     DE_6    &trans    &trans  DE_LEFT  DE_DOWN  DE_RIGHT  &trans  &trans
-&trans  &trans  DE_1  DE_2     DE_3    &trans    &trans  &trans    &trans    &trans     &trans  &trans
-                          &trans  &trans  &trans    &trans  &trans    &trans
+&trans  &trans  DE_7  DE_8    DE_9    &trans    &trans  DE_LEFT_JUMP  DE_UP    DE_RIGHT_JUMP  &trans  &trans
+&trans  DE_0    DE_4  DE_5    DE_6    &trans    &trans  DE_LEFT       DE_DOWN  DE_RIGHT       &trans  &trans
+&trans  &trans  DE_1  DE_2    DE_3    &trans    &trans  &trans        &trans   &trans         &trans  &trans
+                      &trans  &trans  &trans    &trans  &trans        &trans
             >;
         };
 
