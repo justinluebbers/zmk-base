@@ -30,10 +30,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
         label = "";
             bindings = <
-&lt MEDIA ESC     DE_Q  DE_W  DE_E          DE_R                    DE_T              DE_Z                  DE_U                  DE_I                         DE_O    DE_P           DE_SS
-&lt MOUSE TAB     DE_A  DE_S  DE_D          DE_F                    DE_G              DE_H                  DE_J                  DE_K                         DE_L    &kp BACKSPACE  &kp ENTER
-&kp LEFT_CONTROL  DE_Y  DE_X  DE_C          DE_V                    DE_B              DE_N                  DE_M                  DE_COMM                      DE_DOT  DE_DEL         &trans
-                              &kp LEFT_ALT  &mt LEFT_COMMAND SPACE  &lt SYMBOL SPACE  &mt LEFT_SHIFT SPACE  &lt NAVIGATION SPACE  &lt FUNCTION K_CONTEXT_MENU
+&lt MEDIA ESC     DE_Q  DE_W  DE_E          DE_R                    DE_T            DE_Z              DE_U                  DE_I                         DE_O    DE_P           DE_SS
+&lt MOUSE TAB     DE_A  DE_S  DE_D          DE_F                    DE_G            DE_H              DE_J                  DE_K                         DE_L    &kp BACKSPACE  &kp ENTER
+&kp LEFT_CONTROL  DE_Y  DE_X  DE_C          DE_V                    DE_B            DE_N              DE_M                  DE_COMM                      DE_DOT  DE_DEL         &trans
+                              &kp LEFT_ALT  &mt LEFT_COMMAND SPACE  &sk LEFT_SHIFT  &lt SYMBOL SPACE  &lt NAVIGATION SPACE  &lt FUNCTION K_CONTEXT_MENU
             >;
         };
 
